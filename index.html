@@ -20,6 +20,9 @@
         border: none;
         background-color: darkkhaki;
       }
+      #encabezado {
+        text-align: center;
+      }
       #principal2 {
         background-color: #f17da5;
         margin: 0px;
@@ -27,6 +30,9 @@
         height: 70px;
         width: 1100px;
         border: none;
+      }
+      #navegador {
+        text-align: center;
       }
       #principal3 {
         background-color: #fda2a3;
@@ -36,6 +42,46 @@
         width: 1100px;
         border: none;
       }
+      #cuerpo {
+        height: 700px;
+        width: 1100px;
+        border-width: 0px;
+        border-style: none;
+      }
+      #titulo {
+        background-color: #77bed0;
+        height: 50px;
+        width: 1100px;
+        border-width: 0px;
+        border-style: none;
+      }
+      #izquierda {
+        background-color: #f14144;
+        height: 300px;
+        width: 550px;
+        border-width: 0px;
+        border-style: none;
+        float: left;
+      }
+      #derecha {
+        background-color: #f14144;
+        height: 300px;
+        width: 550px;
+        border-width: 0px;
+        border-style: none;
+        float: right;
+      }
+      #contenido {
+        background-color: #c14cf5;
+        margin: 0px;
+        padding: 0px;
+        clear: both;
+        height: 350px;
+        width: 1100px;
+        border-width: 0px;
+        border-style: none;
+      }
+
       #principal4 {
         width: 1100px;
         height: 80px;
@@ -44,15 +90,35 @@
         border: none;
         background-color: aliceblue;
       }
+      #piedepagina {
+        text-align: center;
+      }
     </style>
   </head>
   <body>
-    <div id="principal1"></div>
+    <div id="principal1">
+      <header id="encabezado">
+        Colocar aquí el contenido para id "encabezado"
+      </header>
+    </div>
 
-    <div id="principal2"></div>
+    <div id="principal2">
+      <nav id="navegador">Colocar aquí el contenido para id "navegador"</nav>
+    </div>
 
-    <div id="principal3"></div>
+    <div id="principal3">
+      <div id="cuerpo">
+        <div id="titulo">Colocar aquí el contenido para id "titulo"</div>
+        <div id="izquierda"></div>
+        <div id="derecha"></div>
+        <div id="contenido">Colocar aquí el contenido para id "contenido"</div>
+      </div>
+    </div>
 
-    <div id="principal4"></div>
+    <div id="principal4">
+      <div id="piedepagina">
+        Colocar aquí el contenido para id "piedepagina"
+      </div>
+    </div>
   </body>
 </html>
